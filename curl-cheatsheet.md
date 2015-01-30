@@ -23,6 +23,20 @@ UPDATE Request
 curl -X PUT www.ilives.tk
 ```
 
+Using Headers
+-------------
+```bash
+curl -X GET -H "Accept: application/json" -H "Content-Type:application/x-www-form-urlencoded;charset=utf-8" www.ilives.tk  
+```
+
+silent the output
+-----------------
+```bash
+curl -s -X <METHOD>  www.ilives.tk
+```
+
+
+
 Sending Payload
 ---------------
 + string as payload
